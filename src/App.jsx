@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="bg-[#212529] h-lvh text-white">
       {/* Navbar */}
-      <Navbar setQuery={setQuery} />
+      <Navbar setQuery={setQuery} Movies={Movies} />
       {/* Movies List */}
       <div className="flex  justify-center m-4">
         <div className="flex gap-2 ">

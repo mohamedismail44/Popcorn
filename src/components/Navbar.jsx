@@ -1,4 +1,4 @@
-export default function Navbar({ setQuery }) {
+export default function Navbar({ setQuery,Movies }) {
   return (
     <div>
       <nav className="mx-1 px-6  py-3  items-center rounded-md bg-[#6741D9] flex justify-between">
@@ -15,7 +15,7 @@ export default function Navbar({ setQuery }) {
           />
         </div>
         <div className=" ">
-          <h1>Found X results</h1>
+          <h1>Found {Movies.length} results</h1>
         </div>
       </nav>
     </div>
